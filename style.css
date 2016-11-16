@@ -1,6 +1,6 @@
 html{
 	background:url(back2.jpg) no-repeat center center;
-	background-size:100% 100%;
+	
 	background-attachment:fixed;
 
 }
@@ -63,7 +63,8 @@ q{
 }
 
 #super{
-	background-color:#719867;
+	/*background-color:#719867;*/
+	background:transparent;
 	padding-bottom:12px;
 }
 #first ul {
@@ -74,7 +75,7 @@ q{
     padding: 1px;
 	float: right;
     overflow: hidden;
-    background-color:#719867;
+    background-color:#339966;
 
 }
 #first li {
@@ -145,7 +146,7 @@ q{
 	padding-left: 0px;
 	padding-bottom:0px;
 	overflow: hidden;
-	background-color:#719867;
+	background-color:#339966;
 	border-bottom: 1px;
 	
 	
@@ -214,7 +215,7 @@ q{
 	color:white;
 	display: -moz-inline-stack;
 	display: inline-block;
-	background-color:#333;
+	background-color:black;
 	margin: 0px 0px;
 	display: inline;
 	padding: 0px 0px;
@@ -225,16 +226,15 @@ q{
 	
 	border :1px;
 	top: 0px;
-	width: 94%;
+	width: 100%;
 	position: relative;
 	border-style:outset;
 	border-bottom-color:white;
 	border-top:0px;
 	border-left:0px;
 	border-right:0px;
-	margin-left: 3%;
-	margin-right:3%;
-	min-height: 100px;
+
+	min-height: 300px;
 	display: inline-block;
 	background:transparent;
 }
@@ -255,7 +255,7 @@ q{
 		
 	}
 	#First ul{
-		background-color:#719867;
+		background-color:#339966;
 	}
 	#First li a{
 		color: white;
