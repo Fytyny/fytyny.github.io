@@ -39,6 +39,8 @@ bla2{
 }
 bla2.inside{
 	 top: 0px;
+	 margin: 10px 0px;
+	 padding: 0 20px;
 	 font-size:1.8em;
 	 color: black;
 	 float: left;
@@ -60,10 +62,11 @@ q{
 	quotes: "”","”";
 }
 
-#photo{
-	
+#super{
+	background-color:#719867;
+	padding-bottom:12px;
 }
-ul {
+#first ul {
 	display: inline-block;
     list-style-type: none;
     margin: 0 auto;
@@ -71,16 +74,16 @@ ul {
     padding: 1px;
 	float: right;
     overflow: hidden;
-    background-color: #333;
+    background-color:#719867;
 
 }
-li {
+#first li {
     float: right;
     border-right:1px solid #bbb;
 }
 
 
-li a {
+#first li a {
     display: block;
     color: white;
     text-align: center;
@@ -89,9 +92,40 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+#first li a:hover:not(.active) {
     background-color: white;
 	color: black;
+}
+
+#First ul {
+	display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+
+    padding: 1px;
+	float: right;
+    overflow: hidden;
+    background-color: white;
+
+}
+#First li {
+    float: right;
+    border-right:1px solid #bbb;
+}
+
+
+#First li a {
+    display: block;
+    color: black;
+    text-align: center;
+	font-size: 1,7em;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+#First li a:hover:not(.active) {
+    background-color: black;
+	color: white;
 }
 
 
@@ -99,7 +133,7 @@ li a:hover:not(.active) {
 
 	border :1px;
 	top: 0;
-	width: 94%;
+	width: 100%;
 	z-index: 99999;
 	float: top;
 	border-style: solid;
@@ -107,12 +141,35 @@ li a:hover:not(.active) {
 	position: fixed;
 	top: 0px;
 	margin-top: 0px;
-	margin-left: 3%;
-	margin-right:3%;
+	
 	padding-left: 0px;
 	padding-bottom:0px;
 	overflow: hidden;
-	background-color: #333;
+	background-color:#719867;
+	border-bottom: 1px;
+	
+	
+	
+}
+
+#first bla2.inside{
+	color:white;
+}
+#First{
+
+	border :1px;
+	top: 0;
+	width: 100%;
+	float: top;
+	border-style: solid;
+    border-width: 1px;
+	position: fixed;
+	top: 0px;
+	margin-top: 0px;
+	position:relative;
+	padding-left: 0px;
+	padding-bottom:0px;
+	overflow: hidden;
 	border-bottom: 1px;
 	
 	
@@ -132,14 +189,12 @@ li a:hover:not(.active) {
 	
 	border :1px;
 	top: 0px;
-	width: 94%;
+	width: 100%;
 	position: relative;
 	border-style:outset;
 	border-left:0px;
 	border-right:0px;
-	margin-top: 12px;
-	margin-left: 3%;
-	margin-right:3%;
+
 	padding: 0px 0px;
 	display: table;
 	
@@ -193,12 +248,19 @@ li a:hover:not(.active) {
 	display:inline-block;
 }
 @media only screen and (max-width: 560px) {
-    /* For mobile phones: */
+  
     ul{
 		width: 100%;
 		float:left;
+		
 	}
-	bla{
+	#First ul{
+		background-color:#719867;
+	}
+	#First li a{
+		color: white;
+	}
+	#first bla2{
 		display:none;
 	}
 	#logo{
@@ -207,10 +269,13 @@ li a:hover:not(.active) {
 	bla2{
 		top: 0px;
 	}
+	#super{
+		padding-bottom:60px;
+	}
 }
 
 @media only screen and (max-width: 450px) {
-    /* For mobile phones: */
+ 
     ul{
 		width: 100%;
 		float:left;
@@ -222,14 +287,17 @@ li a:hover:not(.active) {
 	bla2{
 		font-size: 1.8em;
 	}
+	bla2.inside{
+		font-size: 1.1em;
+	}
 	#inside1{
 		width: 100%;
 	}
 	
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 332px) {
     /* For mobile phones: */
-   li{
+    li{
 		width: 100%;
 	}
 	bla{
@@ -237,10 +305,13 @@ li a:hover:not(.active) {
 	}
 	#first{
 		
-		position: relative;
+		display:none;
 		
 	}
 	#first2{
 		display:none;
+	}
+	#super{
+		padding-bottom:90px;
 	}
 }

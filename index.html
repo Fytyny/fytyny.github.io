@@ -7,8 +7,33 @@
 <title>Wizytufka</title>
 </head>
 
-<body>
-	<div id = "first">
+<script>
+	
+		function change(){
+			
+			var s = document.getElementById("first");
+			var x = document.documentElement.clientWidth;
+			if (document.documentElement.scrollTop>130 && x>334){
+				s.style.display = "inline";
+				
+				
+			} else{
+				
+				s.style.display = "none";
+				
+			}
+			
+		}
+</script>
+
+<body onscroll ="change()">
+
+	<div id = "super">
+	<img id="logo" src="logo.png" alt="logo"> 
+	<bla2>Strona wizytówka jest to.</bla2>
+	</div>
+	<div id = "second" >
+	<div id = "first" style="display:none">
 		  <nav>
 		
          <ul>
@@ -20,32 +45,52 @@
          </ul>
 			
        </nav>
-		<bla>Marcin Szyńcowicz</bla> 
+		<bla2 id = "test" class="inside">Marcin Szyńcowicz</bla2>
 		
 	</div>
-	<div id ="first2"> </div>;
-	<img id="logo" src="logo.png" alt="logo"> 
-	<bla2>Strona wizytówka jest to.</bla2>
-	<div id = "second" >
+	<div id = "First">
+		  <nav>
+		
+         <ul>
+			
+            <li><a href="about.html">about</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="">Strona Główna</a></li>
+			
+         </ul>
+			
+       </nav>
+		<bla2 id = "test" class="inside">Marcin Szyńcowicz</bla2>
+		
+	</div>
+	
 	<div id = "inside0">
-		<center><bla2 class="inside">Marcin Szyńcowicz</bla2></center><br>
 		<bla2 class="inside">e-mail: <a href="mailto:marcin.szyncowicz@student.uj.edu.pl">marcin.szyncowicz@student.uj.edu.pl</a></bla2>
 		
 	</div>
+	
 	<center><div id="inside1"><img id="photo" src="default-avatar.jpg" alt="logo"></div></center>
 	</div>
 	
 	<div id="third"></div>
-	<bla2 class="out">Interesuje mnie woda, ziemia, hemoglobina, halucynacja taka sytuacja.</bla2>
+	<bla2 id ="test" class="out" >Interesuje mnie woda, ziemia, hemoglobina, halucynacja taka sytuacja.</bla2>
 	<br>
 	<div id="third"></div>
 	<bla2 class="inside" style ="color:white;">Inne strony:</bla2>
-	<div id ="second">
+	<div id ="second" style ="height:400px; background:black;">
 	
-	<a href="https://github.com/Fytyny/" style= "float:right;"><img height="300px" width ="300px" src="GitHub-Mark.png"></a>
+	<center><div style="position:relative;top:100px;width:100px;height:100px;border-radius:50%;overflow:hidden;">
+	<a href="https://github.com/Fytyny/" >
+	<img height="100px" width ="100px" src="GitHub-Mark.png">
+	</a></div></center>
+	<!--<a href="https://github.com/Fytyny/" style="top:100px; position:relative;" ><img height="100px" width ="100px" src="GitHub-Mark.png"></a>-->
 	
 	</div>
-	
+	<div id ="second" style ="margin-top:0px;">
+	<center></center>
+	<center><div style="position:relative;width:150px;height:100px;border-radius:50%;overflow:hidden;">
+	<bla2 class="inside" style="position:relative">@2016</bla2></div></center>
+	</div>
 </body>
 
 </html>
