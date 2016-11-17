@@ -24,8 +24,8 @@ p{
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%; 
+    margin: auto;
+    width: 50%; 
   }
 
   to {
