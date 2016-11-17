@@ -16,10 +16,13 @@ div {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+p{
+	font-size:1.4em;
+	font-family: Arial, Georgia, Serif;
+}
 bla{
-`
-	font-family: "Times New Roman", Times, serif;
+
+	font-family: Arial, Georgia, Serif;
 	font-size: 1.7em;
 	padding: 10px 10px;
 	display: inline-block;
@@ -247,6 +250,16 @@ q{
 	
 	display:inline-block;
 }
+@media only screen and (min-width: 1921px) {
+	html{
+		background-size:100% 100%;
+	}
+}
+@media only screen and (min-height: 1081px) {
+	html{
+		background-size:100% 100%;
+	}
+}
 @media only screen and (max-width: 560px) {
   
     ul{
@@ -314,4 +327,7 @@ q{
 	#super{
 		padding-bottom:90px;
 	}
+}
+@font-face {
+
 }
