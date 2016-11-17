@@ -20,7 +20,7 @@ div {
 p{
 	font-size:1.4em;
 	font-family: Arial, Georgia, Serif;
-	animation-duration: 3s;
+	animation-duration: 1s;
   	animation-name: slidein;
 
 }
@@ -166,7 +166,7 @@ q{
 	overflow: hidden;
 	background-color:#339966;
 	border-bottom: 1px;
-	animation-duration: 3s;
+	animation-duration: 1s;
   	animation-name: slidein;
 	
 	
