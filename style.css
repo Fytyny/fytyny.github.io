@@ -166,7 +166,8 @@ q{
 	overflow: hidden;
 	background-color:#339966;
 	border-bottom: 1px;
-	
+	animation-duration: 3s;
+  	animation-name: slidein;
 	
 	
 }
