@@ -20,8 +20,6 @@ div {
 p{
 	font-size:1.4em;
 	font-family: Arial, Georgia, Serif;
-	animation-duration: 1s;
-  	animation-name: slidein;
 
 }
 @keyframes slidein {
@@ -166,7 +164,7 @@ q{
 	overflow: hidden;
 	background-color:#339966;
 	border-bottom: 1px;
-	animation-duration: 1s;
+	animation-duration: 0.3s;
   	animation-name: slidein;
 	
 	
