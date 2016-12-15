@@ -42,7 +42,7 @@ $(document).ready(function(){
 	 
 function showsomeinfo (div){
 			div.animate({height: '446px', opacity: '0.4'}, "fast"); 
-        	div.animate({width: '100%', opacity: '1',left: '0px'} ,500); 
+        	div.animate({width: '100%', opacity: '0.9',left: '0px'} ,500); 
 }
 function hidesomeinfo(div){
 			div.animate({height: '0px', opacity: '0',width: '200px'}, "fast"); 
