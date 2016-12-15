@@ -14,17 +14,23 @@ $(document).ready(function(){
     var i = 0; 
     var j = 0;
     $("#pierwsze").mouseenter(function(){ 
-			hidesomeinfo($(".bla"));
+	    	if (i<1){
+		hidesomeinfo($(".bla"));
     	 	var div = $("#txt");
        	  	showsomeinfo(div);
+			i=1;
+		}
         }); 
     
     $("#drugie").mouseenter(function(){ 
+	    if (j<1){
 			hidesomeinfo($(".bla"));
     	    var div = $("#txt2");
 		    var p = $("#drugie").position();
 			div.css("left", p.left);
        		showsomeinfo(div);
+		    j=1;
+	    }
     
    }); 
    $(".bla").click(function(){
@@ -46,5 +52,5 @@ function showsomeinfo (div){
 }
 function hidesomeinfo(div){
 			div.animate({height: '0px', opacity: '0',width: '200px'}, "fast"); 
-		
+			i = 0; j = 0;
 }
