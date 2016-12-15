@@ -16,6 +16,7 @@ $(document).ready(function(){
     $("#pierwsze").mouseenter(function(){ 
 	    	if (i<1){
 		hidesomeinfo($(".bla"));
+			 i = 0; j = 0;
     	 	var div = $("#txt");
        	  	showsomeinfo(div);
 			i=1;
@@ -25,6 +26,7 @@ $(document).ready(function(){
     $("#drugie").mouseenter(function(){ 
 	    if (j<1){
 			hidesomeinfo($(".bla"));
+		     i = 0; j = 0;
     	    var div = $("#txt2");
 		    var p = $("#drugie").position();
 			div.css("left", p.left);
@@ -35,6 +37,7 @@ $(document).ready(function(){
    }); 
    $(".bla").click(function(){
 	   hidesomeinfo($(".bla"));
+	   i = 0; j = 0;
    });
    
    $("#git").hover(function(){
@@ -52,5 +55,5 @@ function showsomeinfo (div){
 }
 function hidesomeinfo(div){
 			div.animate({height: '0px', opacity: '0',width: '200px'}, "fast"); 
-			i = 0; j = 0;
+			
 }
