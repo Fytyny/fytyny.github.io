@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Wizytufka</title>
 </head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="script.js"></script> 
 
 <body onscroll ="change()">
@@ -16,7 +16,7 @@
 	<bla2>Strona wizytówka jest to.</bla2>
 	</div>
 	<div id = "second" >
-	<div id = "first" style="display:none">
+	<div id = "first" style= "display:none">
 		  <nav>
 		
          <ul>
@@ -58,20 +58,39 @@
 	<div id ="second" style ="height:400px; background:black;color: white; padding: 20px 20px;">
 	<div style="margin:auto; float:right; background-color:black;"><p>Bardzo interesujący tekst o tym czym się zajmuje</p></div>
 	</div>
-	<div id="third" height ="300"></div>
+	<div id="third" height ="300">
+	<div style ="height:50px; width: 100%; position: relative; display: block;background: transparent;">
+<div id = "pierwsze"  style="float: left;background:#98bf21;height:50px;width:300px;position:relative; overflow: hidden;"><p style ="margin: 10px 10px">Obrazek</p></div>
+
+<div id = "drugie" style="float: left;background:#9999ff;height:50px;width:300px;position:relative; overflow: hidden;"><p style ="margin: 10px 10px">Tekst</p></div>
+</div>
+<div id = "txt" class= "bla" style="background:#98bf21;height:0px;width:300px;position:relative; overflow: hidden; left:0px;">
+<br>
+<img src="zyrafa.jpg">
+<p id = "ukryj" style ="margin: 10px 10px"> żyraf xde</p>
+</div>
+<div id = "txt2" class = "bla" style="background:#9999ff;height:0px;width:300px;position:relative; overflow: hidden; left:0px;">
+<p id = "ukryj2" style ="margin: 10px 10px"> to jest jakiś tekst2</p></div>
 	
-	
-	
-	
-	<div id ="second" style ="height:400px; background:black;">
-	
-	<div style="position:relative;top:100px;width:100px;height:100px;border-radius:50%;overflow:hidden; margin-left: auto; margin-right: auto;">
-	<a href="https://github.com/Fytyny/" >
-	<img height="100px" width ="100px" src="GitHub-Mark.png">
-	</a></div>
-	<!--<a href="https://github.com/Fytyny/" style="top:100px; position:relative;" ><img height="100px" width ="100px" src="GitHub-Mark.png"></a>-->
 	
 	</div>
+	
+	
+	
+	
+	<div id ="second" style ="height:400px; background:black;align-items:center;">
+	
+	<div id ="git" style="diplay:block;position:relative;top:100px;width:100px;height:100px;border-radius:50%;overflow:hidden; margin-left: auto; margin-right: auto;">
+	<a href="https://github.com/Fytyny/" >
+	<img height="100px" width ="100px" src="GitHub-Mark.png">
+
+	</a></div>
+
+	<p id ="podpis" style ="display:block;position:absolute; margin: 0; color:white;top:210px; left:47.5%;display:hidden;">github.com</p>
+	<!--<a href="https://github.com/Fytyny/" style="top:100px; position:relative;" ><img height="100px" width ="100px" src="GitHub-Mark.png"></a>-->
+
+	</div>
+	
 	<div id ="second" style ="margin-top:0px;">
 
 	<div style="position:relative;width:150px;height:100px;border-radius:50%;overflow:hidden; margin-left: auto; margin-right: auto;">

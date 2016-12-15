@@ -22,16 +22,8 @@ p{
 	font-family: Arial, Georgia, Serif;
 
 }
-@keyframes slidein {
-  from {
-    margin: auto;
-    width: 50%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+.bla{
+	padding: 0 1%;
 }
 bla{
 
@@ -164,8 +156,7 @@ q{
 	overflow: hidden;
 	background-color:#339966;
 	border-bottom: 1px;
-	animation-duration: 0.3s;
-  	animation-name: slidein;
+	
 	
 	
 }
@@ -251,7 +242,7 @@ q{
 	border-left:0px;
 	border-right:0px;
 
-	min-height: 300px;
+	min-height: 500px;
 	display: inline-block;
 	background:transparent;
 }
