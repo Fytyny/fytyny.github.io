@@ -20,7 +20,7 @@ $(document).ready(function(){
         }); 
     
     $("#drugie").mouseenter(function(){ 
-			$(".bla").hide();
+			hidesomeinfo($(".bla"));
     	    var div = $("#txt2");
 		    var p = $("#drugie").position();
 			div.css("left", p.left);
